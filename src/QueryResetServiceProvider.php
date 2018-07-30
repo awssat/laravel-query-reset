@@ -22,12 +22,13 @@ class QueryResetServiceProvider extends ServiceProvider
             ->each(function($method) {
                 Builder::macro('reset'. ucfirst($method), QueryReset::$method());
             });
-        
+
         //Eloquent builder
         Collection::make(EloquentReset::getMethods())
-            ->reject(function($method) {
-                return EloquentBuilder::hasMacro('reset'. ucfirst($method));
-            })
+            //TODO: find a better way to check
+            // ->reject(function($method) {
+            //     //return EloquentBuilder::hasMacro('reset'. ucfirst($method));
+            // })
             ->each(function($method) {
                 EloquentBuilder::macro('reset'. ucfirst($method), EloquentReset::$method());
             });
