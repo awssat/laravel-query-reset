@@ -1,5 +1,16 @@
+
+
+![laravel-query-reset](https://i.imgur.com/iqraynn.jpg)
+
+
+
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+
+
 ## Introduction
 Clear previously set statements in Laravel query builder/Eloqent builder easily.
+
 
 ## Features
 - Support most of query builder statemets. (where, limit, order etc..)
@@ -55,3 +66,13 @@ if you're using statements in your relations defining methods or using built in 
 ## License
 
 This package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## Credits
+- [All Contributors][link-contributors]
+
+
+[ico-version]: https://img.shields.io/packagist/v/awssat/laravel-query-reset.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[link-packagist]: https://packagist.org/packages/awssat/laravel-query-reset
+[link-contributors]: ../../contributors
+
