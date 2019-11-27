@@ -23,7 +23,7 @@ Clear previously set statements in Laravel query builder/Eloqent builder easily.
 
 Via Composer
 ``` bash
-composer require awssat/laravel-query-test
+composer require awssat/laravel-query-reset
 ```
 
 ### Before Laravel 5.5
